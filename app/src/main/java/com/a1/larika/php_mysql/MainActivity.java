@@ -22,5 +22,8 @@ et1= (EditText) findViewById(R.id.editText);
         Bw bw=new Bw(this);
         bw.execute(type,un,pd);
     }
-
+//only for testing
+    public void testUpload(){
+        int i=2+1;
+    }
 }
